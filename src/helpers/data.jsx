@@ -8,6 +8,7 @@ import projectImg3 from '../assets/images/forkify.png';
 import projectImg4 from '../assets/images/form.png';
 import projectImg5 from '../assets/images/bankist.png';
 import projectImg6 from '../assets/images/jobster.png';
+import projectImg7 from '../assets/images/bookIs.png';
 
 import projectFile1 from '../assets/files/Trimman.pdf';
 import projectFile2 from '../assets/files/HTML_CSS_backroads.pdf';
@@ -15,6 +16,7 @@ import projectFile3 from '../assets/files/javascript_forkify.pdf';
 import projectFile4 from '../assets/files/Form.pdf';
 import projectFile5 from '../assets/files/Bankist.pdf';
 import projectFile6 from '../assets/files/Jobster.pdf';
+import projectFile7 from '../assets/files/BookIs.pdf';
 
 import iconFrontEnd from '../assets/images/frontend.png';
 import iconBackEnd from '../assets/images/backend.png';
@@ -185,6 +187,33 @@ export const projects = [
           'cookie-parser | JWT',
           'recharts',
         ],
+      },
+    ],
+  },
+  {
+    title: 'BookIs',
+    client: 'Serhiy',
+    img: projectImg7,
+    file: projectFile7,
+
+    textLead: () => (
+      <p className="text-lead">
+        I built BookIs, a top-notch web app with React.js and Google Books API.
+        It allows easy search, sort, and filter of an extensive book collection
+        and hassle-free viewing of selected books.
+      </p>
+    ),
+    overview: [
+      {
+        linkProject: 'https://book-is.netlify.app',
+        linkCode: 'https://github.com/SerhiySk/google-books-APP',
+        text: () => (
+          <p>
+            The application has been designed with responsive capabilities and
+            features a sleek neomorphic style.
+          </p>
+        ),
+        list: ['React | HTML | CSS', 'GoogleAPI | axios', 'styled-components'],
       },
     ],
   },

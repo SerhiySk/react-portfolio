@@ -2,14 +2,7 @@ import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const TabProject = ({
-  title,
-  file,
-  linkProject,
-  linkCode,
-  textLead,
-  overview,
-}) => {
+const TabProject = ({ title, file, textLead, setProject, overview }) => {
   console.log(file);
 
   return (
