@@ -7,7 +7,7 @@ import {
   Navigate,
 } from 'react-router-dom';
 import Home from './pages/Home';
-import './index2.css';
+import './index.css';
 
 function App() {
   const [isSidebar, setIsSidebar] = useState(false);

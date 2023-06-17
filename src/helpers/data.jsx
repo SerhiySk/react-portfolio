@@ -3,7 +3,7 @@ import { FaCode } from 'react-icons/fa';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import { TbApi } from 'react-icons/tb';
 import projectImg1 from '../assets/images/trimmers.jpg';
-import projectImg2 from '../assets/images/backroads.jpeg';
+import projectImg2 from '../assets/images/cryptus.png';
 import projectImg3 from '../assets/images/forkify.png';
 import projectImg4 from '../assets/images/form.png';
 import projectImg5 from '../assets/images/bankist.png';
@@ -11,7 +11,7 @@ import projectImg6 from '../assets/images/jobster.png';
 import projectImg7 from '../assets/images/bookIs.png';
 
 import projectFile1 from '../assets/files/Trimman.pdf';
-import projectFile2 from '../assets/files/HTML_CSS_backroads.pdf';
+import projectFile2 from '../assets/files/cryptous.pdf';
 import projectFile3 from '../assets/files/javascript_forkify.pdf';
 import projectFile4 from '../assets/files/Form.pdf';
 import projectFile5 from '../assets/files/Bankist.pdf';
@@ -191,6 +191,40 @@ export const projects = [
     ],
   },
   {
+    title: 'Cryptous',
+    client: 'Serhiy',
+    img: projectImg2,
+    file: projectFile2,
+
+    textLead: () => (
+      <p className="text-lead">
+        I created Cryptous from a Figma design with the help of Locofy builder,
+        which efficiently translates designs into code.
+      </p>
+    ),
+    overview: [
+      {
+        linkProject: 'https://cryptous-l.netlify.app',
+        linkCode: 'https://github.com/SerhiySk/Locofy-Crypto_Landing_Page',
+        text: () => (
+          <p>
+            The process was smooth and I was able to build a fully responsive
+            website with pixel-perfect accuracy. It was a rewarding experience
+            that demonstrated my development skills.
+            <br />
+            To demonstrate my proficiency in working with both, I utilized CSS
+            and styled-components for the styling of this project.
+          </p>
+        ),
+        list: [
+          'CSS | HTML | Javascript',
+          'React | styled-components',
+          'Figma | Locofy',
+        ],
+      },
+    ],
+  },
+  {
     title: 'BookIs',
     client: 'Serhiy',
     img: projectImg7,
@@ -247,34 +281,6 @@ export const projects = [
           'CSS media queries',
           'CSS flexbox | grid',
         ],
-      },
-    ],
-  },
-  {
-    title: 'BackRoads',
-    client: 'Serhiy',
-    img: projectImg2,
-    file: projectFile2,
-
-    textLead: () => (
-      <p className="text-lead">
-        I created the 'BackRoads' single page as a practice project to showcase
-        my understanding of HTML, CSS, and Javascript. My main aim was to
-        incorporate responsive design principles to ensure that the page can be
-        accessed seamlessly on different devices with varying screen sizes.
-      </p>
-    ),
-    overview: [
-      {
-        linkCode: 'https://github.com/SerhiySk/HTML-CSS-backroads',
-        text: () => (
-          <p>
-            As such, css media queries were used to set up breakpoints and
-            define how each element on the page should be displayed at different
-            viewport widths.
-          </p>
-        ),
-        list: ['CSS | HTML | Javascript', 'CSS media queries', 'CSS flexbox'],
       },
     ],
   },
