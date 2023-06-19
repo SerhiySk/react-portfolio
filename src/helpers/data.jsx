@@ -352,7 +352,7 @@ export const skills = [
   {
     area: 'front end',
     icon: iconFrontEnd,
-    items: ['react.js', 'javascript', 'HTML&CSS'],
+    items: ['react.js', 'javascript | HTML', 'CSS | Bootstrap'],
   },
   {
     area: 'back end',
@@ -376,28 +376,3 @@ export const skills = [
     ],
   },
 ];
-
-// {
-//   description: `
-//   Take the stress out of your web development projects with my front-end expertise in React.js, HTML/CSS/Javascript and more!
-
-//  I create impeccable websites and applications with seamless integration of features such as Redux and Stripe payments.
-
-//  Let me do all the hard work for you so that you don't have to worry about it yourself.
-
-//  I work on API integration as well, specifically engineering solutions that will allow for seamless and secure integration of APIs into websites and applications.`,
-//   service: 'web development',
-//   Icon: FaCode,
-// },
-// {
-//   description:
-//     'With my design services, I create visually appealing and intuitive user experiences for my clients. I specialize in implementing responsive web designs with CSS and styled-components to ensure compatibility across different devices and platforms. My designs are modern, clean, and optimized for the best user experience possible. I have a keen eye for detail, enabling me to craft high-quality designs that achieve the desired goals of my clients.',
-//   service: 'web design',
-//   Icon: FaSketch,
-// },
-// {
-//   description: `As a seasoned developer, I possess a unique set of skills that allow me to craft robust backend solutions using Node.js and Express, leveraging the power of MongoDB databases and the Mongoose library to create APIs that can effectively handle intricate text responses, checkout requests, and authorization workflows with ease. Whether it's building an API from the ground up or enhancing an existing one, I am confident in my ability to deliver results that exceed expectations and drive business success
-// .    `,
-//   service: 'API development',
-//   Icon: FaAndroid,
-// },
